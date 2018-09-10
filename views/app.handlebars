@@ -1,0 +1,41 @@
+<form>
+  <div class="form-group">
+    <label for="formGroupExampleInput">city</label>
+    <input type="text" class="form-control" id="city" placeholder="Example input">
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput2">Street</label>
+    <input type="text" class="form-control" id="street" placeholder="Another input">
+  </div>
+    <div class="form-group">
+    <label for="formGroupExampleInput">House Number</label>
+    <input type="text" class="form-control" id="houseNumber" placeholder="Example input">
+  </div>
+</form>
+<a href="#" class="btn" id="submitBtn">submit</a>
+
+<script>
+    var city = document.getElementById('city').value;
+    var street = document.getElementById('street').value;
+    var houseNumber = document.getElementById('houseNumber').value;
+    var submitBtn = document.getElementById('submitBtn')
+    
+    submitBtn.addEventListener('click', (city,street,houseNumber)=> {
+
+    var city = document.getElementById('city').value;
+    var street = document.getElementById('street').value;
+    var houseNumber = document.getElementById('houseNumber').value;
+    const newAddress =  {
+        city: city,
+        street:street,
+        houseNumber:houseNumber
+
+    }
+        var addressArr = [];
+
+         addressArr.push(newAddress);
+         console.log(newAddress)
+
+        })
+
+</script>

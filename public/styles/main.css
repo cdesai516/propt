@@ -1,0 +1,19 @@
+
+/*# sourceMappingURL=main.css.map */
+body {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-color: rgba(114, 66, 121, 0.57);
+opacity: 0.8;
+}
+
+img {
+  opacity: 1 !important;
+
+}
+
+.main , .jumbotron{
+  margin: 4% !important;
+}
+nav {
+  margin-bottom: 3% !important;
+}

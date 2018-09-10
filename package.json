@@ -1,0 +1,25 @@
+{
+  "name": "proptio",
+  "version": "1.0.0",
+  "description": "DevSandbox",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mongod": "^2.0.0",
+    "mongodb": "^3.1.4",
+    "mongoose": "^5.2.14",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.18.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
